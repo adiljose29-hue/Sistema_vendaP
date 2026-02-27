@@ -1,0 +1,70 @@
+PDV_System/
+│
+├──
+├── POS.py                     # Interface do Ponto de Venda
+├── AdmiG.py                   # Interface Administrativa
+├── config.ini                 # Configurações gerais do sistema
+├── recibo_config.ini          # Configurações do recibo
+├── database.py                # Gerenciador de banco de dados
+├── connection_manager.py      # Gerenciador de conexões otimizado
+├── config_manager.py          # Gerenciador de configurações
+├── printer_manager.py         # Gerenciador de impressão
+├── auth_manager.py            # Gerenciador de autenticação
+├── product_cache.py           # Cache inteligente de produtos
+├── mode_manager.py            # Gerenciador de modos de operação
+├── key_processor.py           # Processador de teclas otimizado
+├── log_manager.py             # Sistema de logs e monitoramento
+├── fiscal_manager.py          # Gerenciador fiscal (AGT)
+├── receipt_generator.py       # Gerador de recibos
+├── currency_formatter.py      # Formatador de moeda (Kz)
+├── session_manager.py         # Gerenciador de sessões
+├── data_validator.py          # Validador de dados
+│
+└── logs/                      # Pasta de logs
+    ├── system.log
+    ├── sales.log
+    └── errors.log
+
+
+PDV_System/
+│
+├── 
+├── POS.py                     # Interface do Ponto de Venda
+├── receipt_generator.py       # Gerador de recibos
+├── config.ini                 # Configurações gerais do sistema
+├── recibo_config.ini          # Configurações do recibo
+├── database.py                # Gerenciador de banco de dados
+├── connection_manager.py      # Gerenciador de conexões otimizado
+├── config_manager.py          # Gerenciador de configurações
+├── printer_manager.py         # Gerenciador de impressão
+├── auth_manager.py            # Gerenciador de autenticação
+├── product_cache.py           # Cache inteligente de produtos
+├──scanner_manager.py          # usar o scanner
+├── 
+├── mode_manager.py            # Gerenciador de modos de operação  sem configuração(vazio  em Desenvolvimento).
+├── key_processor.py           # Processador de teclas otimizado   sem configuração(vazio  em Desenvolvimento).
+├── log_manager.py             # Sistema de logs e monitoramento   sem configuração(vazio  em Desenvolvimento).
+├── fiscal_manager.py          # Gerenciador fiscal (AGT)          sem configuração(vazio  em Desenvolvimento).
+├── currency_formatter.py      # Formatador de moeda (Kz)          sem configuração(vazio  em Desenvolvimento).
+├── session_manager.py         # Gerenciador de sessões            sem configuração(vazio  em Desenvolvimento).
+├── data_validator.py          # Validador de dados                sem configuração(vazio  em Desenvolvimento).
+│
+└── logs/                      # Pasta de logs
+    ├── system.log
+    ├── sales.log
+    └── errors.log
+
+
+
+PDV_System/
+├── main.py
+├── POS.py
+├── AdmiG.py
+├── config.ini
+├── recibo_config.ini
+├── database.py
+├── connection_manager.py
+├── config_manager.py
+├── product_cache.py
+├── auth_manager.py
+└── logs/
